@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 8px;
+}
+
+th {
+  background-color: #444;
+  color: #fff;
+}
+
+.link-sin-estilo {
+  text-decoration: none; /* quita subrayado */
+  color: inherit;        /* usa el color del texto normal */
+  cursor: pointer;       /* mantiene el puntero de link */
+}
