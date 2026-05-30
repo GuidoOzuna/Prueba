@@ -6,6 +6,7 @@ fetch("data.json")
   .then(posts => {
     postsData = posts;
     mostrarPosts(postsData);
+    mostrarTags(postsData);
   })
   .catch(error => console.error("Error cargando JSON:", error));
 
@@ -22,6 +23,24 @@ function mostrarPosts(posts) {
       <p>${post.cuerpo}</p>
     `;
     container.appendChild(article);
+  });
+}
+
+function mostrarTags(posts) {
+  const tagsContainer = document.getElementById("tags-container");
+  const allTags = [...new Set(posts.flatMap(post => post.tags))];
+  tagsContainer.innerHTML = "";
+  allTags.forEach(tag => {
+    const tagElement = document.createElement("span");
+    tagElement.classList.add("tag");
+    tagElement.textContent = tag;
+    tagElement.addEventListener("click", () => {
+      const filtrados = postsData.filter(post =>
+        post.tags.some(t => t.toLowerCase() === tag.toLowerCase())
+      );
+      mostrarPosts(filtrados);
+    });
+    tagsContainer.appendChild(tagElement);
   });
 }
 
