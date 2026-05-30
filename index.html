@@ -2,13 +2,33 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Buscador Simple</title>
+  <title>Mi Diario Revista</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="contenedor">
-    <input type="text" placeholder="Escribe tu búsqueda..." class="buscador">
-    <button class="boton">Buscar</button>
-  </div>
+  <!-- Menú de navegación -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Mi Diario</h1>
+      <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Noticias</a></li>
+        <li><a href="#">Opinión</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenedor principal -->
+  <main id="blog-container">
+    <!-- Aquí se cargarán los posts desde JSON -->
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Mi Diario Revista - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
