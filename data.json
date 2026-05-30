@@ -1,10 +1,10 @@
 [
   {
-    "titulo": "Primer artículo",
-    "imagen": "https://via.placeholder.com/800x400",
+    "titulo": "Templo del Caballo Blanco",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/4/4a/White_Horse_Temple_Luoyang.jpg",
     "fecha": "2026-05-29",
-    "cuerpo": "Este es el contenido del primer artículo de prueba.",
-    "tags": ["noticias", "actualidad"]
+    "cuerpo": "El Templo del Caballo Blanco (白马寺, Báimǎsì), fundado en el año 68 d.C. en Luoyang, Henan, es considerado la cuna del budismo en China. Fue el primer templo budista del país, construido por orden del emperador Mingdi de Han tras recibir monjes y escrituras desde la India. Su nombre honra al caballo blanco que transportó los sutras. Hoy conserva salas tradicionales, pagodas y pabellones, y sigue siendo un centro espiritual y turístico de gran relevancia.",
+    "tags": ["China", "Budismo", "Historia", "Arquitectura", "Templos"]
   },
   {
     "titulo": "Segundo artículo",
