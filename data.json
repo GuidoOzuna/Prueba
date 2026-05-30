@@ -1,0 +1,16 @@
+[
+  {
+    "titulo": "Primer artículo",
+    "imagen": "https://via.placeholder.com/800x400",
+    "fecha": "2026-05-29",
+    "cuerpo": "Este es el contenido del primer artículo de prueba.",
+    "tags": ["noticias", "actualidad"]
+  },
+  {
+    "titulo": "Segundo artículo",
+    "imagen": "https://via.placeholder.com/800x400",
+    "fecha": "2026-05-28",
+    "cuerpo": "Este es el contenido del segundo artículo, con más detalles.",
+    "tags": ["opinión", "sociedad"]
+  }
+]
