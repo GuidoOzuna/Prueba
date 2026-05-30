@@ -2,18 +2,12 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Tabla de Bandas</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Modelo 3D</title>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
 </head>
 <body>
-  <p>Lista De Juegos</p>
-  <table id="tabla-musical">
-    <thead>
-      <tr id="cabecera"></tr>
-    </thead>
-    <tbody id="cuerpo-tabla"></tbody>
-  </table>
-
-  <script src="script.js"></script>
+  <model-viewer src="modelo.glb" alt="Ejemplo 3D"
+                shadow-intensity="1" camera-controls auto-rotate>
+  </model-viewer>
 </body>
 </html>
